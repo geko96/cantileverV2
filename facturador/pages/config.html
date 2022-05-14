@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuracion - Cantilever</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="shortcut icon" href="../../src/img/logo.png" type="image/x-icon">
+    <meta name="description" content="Facturador electronico para afip">
+    <meta name="keywords"  content="HTML, JS, AFIP, CUIT, FACTURA, COMERCIOS, VENTAS, KIOSCO, SUPERMERCADO">
+
+</head>
+<body>
+    <a href="../../index.html"><h1 class="logo"><img src="../../src/img/logo.png">Cantilever</h1></a>
+
+
+    <menu class="mobile">
+        <div>Menu</div>
+        <ul>
+            <li><a href="./new.html">Nueva</a></li>
+            <li><a href="./emited.html">Emitidas</a></li>
+            <li><a href="./clients.html">Clientes</a></li>
+            <li><a href="./products.html">Productos</a></li>
+            <li><a href="./config.html">Configuracion</a></li>
+        </ul>
+
+    </menu>
+
+    <menu class="desktop row" id="menu-desktop">
+        <div><a href="./new.html">Facturar</a></div>
+        <div><a href="./emited.html">Emitidas</a></div>
+        <div><a href="./clients.html">Clientes</a></div>
+        <div><a href="./products.html">Productos</a></div>
+        <div><a href="./config.html">Configuracion</a></div>
+    </menu>
+
+    <section class="mobile box">
+        <h3>Datos de la empresa</h3>
+        <div>
+            <div>Nombre registrado</div>
+            <div>Cuit Registrado</div>
+            <div>Condicion Frente al iva</div>
+            <input type="text" placeholder="Fecha de inicio actividades">
+            <input type="text" placeholder="IIBB">
+            <input type="text" placeholder="Direccion">
+            <button>Cert afip</button>
+            <button>Key afip</button>
+        </div>
+        
+    </section>
+
+    <section class="mobile box">
+        <h3>Editar tikets</h3>
+        <button>Abrir editor</button>
+    </section>
+
+    <section class="desktop box">
+        <h2>Configurar servidor</h2>
+        <h3>Datos de la empresa</h3>
+        <div>
+            <div>Nombre registrado</div>
+            <div>Cuit Registrado</div>
+            <div>Condicion Frente al iva</div>
+            <input type="text" placeholder="Fecha de inicio actividades">
+            <input type="text" placeholder="IIBB">
+            <input type="text" placeholder="Direccion">
+            <button>Cert afip</button>
+            <button>Key afip</button>
+        </div>
+    </section>
+
+    <section class="desktop box column">
+        <h2>Configurar puntos de venta</h2>
+        <div>
+            <div><h3>Locaciones</h3>
+            <table>
+                <tr>
+                    <th>Principal</th>
+                    <th>🖉</th>
+                </tr>
+            </table>
+
+            <p><button>Nueva Locacion</button></p>
+            </div>
+
+
+            <div><h3>Terminales</h3>
+                <label for="busque">Locacion:</label>
+
+                <select name="busque" id="busqueda1">
+                    <option value="1">Principal</option>
+                    
+                </select>
+
+                <table>
+                    <tr>
+                        <th>Terminal 1</th>
+                        <th>🖉</th>
+                    </tr>
+                </table>
+                <p><button>Aceptar terminal</button></p>
+
+            </div>
+            <div><h3>Usuarios</h3>
+            
+                <label for="busque">Locacion:</label>
+
+                <select name="busque" id="busqueda1">
+                    <option value="1">Principal</option>
+                    
+                </select>
+
+                <table>
+                    <tr>
+                        <th>Usuario 1</th>
+                        <th>🖉</th>
+                    </tr>
+                </table>
+                <p><button>Nuevo Usuario</button></p>
+
+            </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+        <div>correo: info@cantilever.com.ar</div>
+        <div>Cordoba, Argentina</div>
+        <div>Algun otro dato</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantilever</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="../src/img/logo.png" type="image/x-icon">
+
+    <meta name="description" content="Facturador electronico para afip">
+    <meta name="keywords"  content="HTML, JS, AFIP, CUIT, FACTURA, COMERCIOS, VENTAS, KIOSCO, SUPERMERCADO">
+
+</head>
+<body>
+
+    <a href="./index.html">
+        <h1 id="logo" class="logo"><img src="./src/img/logo.png">Cantilever</h1>
+    </a>
+
+    <menu class="mobile">
+        <div>Menu</div>
+        <ul>
+            <li><a href="./facturador/index.html">Facturador</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="./src/pages/help.html">Ayuda</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+
+    </menu>
+
+    <menu class="desktop row" id="menu-desktop">
+        <div><a href="./facturador/index.html">Facturador</a></div>
+        <div><a href="#precios">Precios</a></div>
+        <div><a href="./src/pages/help.html">Ayuda</a></div>
+        <div><a href="#contacto">Contacto</a></div>
+    </menu>
+
+    <section id="novedades-home">
+       
+        <div class="imgPost">
+            <h2>Novedades</h3>
+            <img  src="./src/img/teclado.jpg">
+        </div>
+
+        <div class="carrusel desktop">
+            <div id="atras">❮</div>
+            
+            <div class="boxDesktop"><img src="./src/img/logo.png"><p>Titulo 1</p></div>
+            <div class="boxDesktop"><img src="./src/img/logo.png"><p>Titulo 2</p></div>
+            <div id="adelante">❯</div>
+        </div>
+
+    </section>
+
+    <section class="desktop box" id="status">
+        <h1>Estado de nuestros servicios</h1>
+        
+    </section>
+
+    <a name="precios"></a>
+    
+    <Section id="precios">
+        <h1>Precios</h1>
+        <p></p>
+        <div>
+            <h3>Free</h3>
+            <ul>
+                <li>50 Comprobantes mensuales</li>
+                <li>Unico usuario</li>
+                <li>Reportes y libros de iva</li>
+                <li class="rayado">Asesoria alta afip</li>
+                <li class="rayado">Atencion personalizada</li>
+                <li class="rayado">Personalizacion de comprobantes</li>
+                <li class="rayado">Comprobantes T, FCE, Exportación</li>
+                <li class="rayado">Server On-site</li>
+            </ul>
+            <h4>Registrarse</h4>
+        </div>
+
+        <div>
+            <h3>Base</h3>
+            <ul>
+                <li>150 Comprobantes mensuales</li>
+                <li>Multiple usuario</li>
+                <li>Reportes y libros de iva</li>
+                <li class="rayado">Asesoria alta afip</li>
+                <li class="rayado">Atencion personalizada</li>
+                <li class="rayado">Personalizacion de comprobantes</li>
+                <li class="rayado">Comprobantes T, FCE, Exportación</li>
+                <li class="rayado">Server On-site</li>
+            </ul>
+            <h4>Registrarse</h4>
+        </div>
+
+        <div>
+            <h3>Pyme</h3>
+            <ul>
+                <li>500 Comprobantes mensuales</li>
+                <li>Multiple usuario</li>
+                <li>Reportes y libros de iva</li>
+                <li>Asesoria alta afip</li>
+                <li>Atencion personalizada</li>
+                <li>Personalizacion de comprobantes</li>
+                <li class="rayado">Comprobantes T, FCE, Exportación</li>
+                <li class="rayado">Server On-site</li>
+            </ul>
+            <h4>Registrarse</h4>
+        </div>
+
+        <div>
+            <h3>Comercio</h3>
+            <ul>
+                <li>ilimitados Comprobantes mensuales</li>
+                <li>Multiple usuario</li>
+                <li>Reportes y libros de iva</li>
+                <li>Asesoria alta afip</li>
+                <li>Atencion personalizada</li>
+                <li>Personalizacion de comprobantes</li>
+                <li>Server On-site</li>
+                <li class="rayado">Comprobantes T, FCE, Exportación</li>
+            </ul>
+            <h4>Registrarse</h4>
+        </div>
+
+        <div>
+            <h3>Pro</h3>
+            <ul>
+                <li>ilimitados Comprobantes mensuales</li>
+                <li>Multiple usuario</li>
+                <li>Reportes y libros de iva</li>
+                <li>Asesoria alta afip</li>
+                <li>Atencion personalizada</li>
+                <li>Personalizacion de comprobantes</li>
+                <li>Server On-site</li>
+                <li>Comprobantes T, FCE, Exportación</li>
+            </ul>
+            <h4>Registrarse</h4>
+        </div>
+    </Section>
+
+    <a name="contacto"></a>
+    <section id="contacto" class="mobile">
+        <h1>Contacto</h1>
+        <form action="">
+           
+            <div>
+                <div>
+                    <input type="text" id="name" placeholder="Nombre">
+                    <p></p>
+                    <input type="email" id="email" placeholder="Correo electronico">
+                    <p></p>
+                    <input type="text" id="phone" placeholder="Ingrese su telefono">
+                    <p></p>
+                    <input type="text" placeholder="ingrese su direccion">
+                </div>
+                
+                <div>
+                    <textarea rows="10" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+            </div>
+           
+            
+            
+            
+            <input type="submit"> <input type="reset">
+
+        </form>
+
+    </section>
+
+    <section class="desktop box row" id="desktop-contact">
+        
+        <form action="">
+           
+            <div>
+                <div>
+                    <input type="text" id="name" placeholder="Nombre">
+                    <input type="email" id="email" placeholder="Correo electronico">
+                    <input type="text" id="phone" placeholder="Ingrese su telefono">
+                    <input type="text" placeholder="ingrese su direccion">
+                </div>
+                
+                <div>
+                    <textarea rows="10" placeholder="Ingrese su mensaje"></textarea>
+                </div>
+            </div>
+           
+            
+            
+            
+            <input type="submit"> <input type="reset">
+
+        </form>
+
+        <iframe class="iframeExt" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13412.522016257351!2d-63.875874550000006!3d-32.81530695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cdc389259d6271%3A0x52026842809bc248!2zMzLCsDQ4JzM4LjUiUyA2M8KwNTInMDkuMCJX!5e0!3m2!1ses-419!2sar!4v1650182634351!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <footer>
+        <div>correo: info@cantilever.com.ar</div>
+        <div>Cordoba, Argentina</div>
+        <div>Algun otro dato</div>
+    </footer>
+    <script src="./src/js/status.js"></script>
+</body>
+</html>

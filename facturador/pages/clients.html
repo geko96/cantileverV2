@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="shortcut icon" href="../../src/img/logo.png" type="image/x-icon">
+    <meta name="description" content="Facturador electronico para afip">
+    <meta name="keywords"  content="HTML, JS, AFIP, CUIT, FACTURA, COMERCIOS, VENTAS, KIOSCO, SUPERMERCADO">
+
+</head>
+<body class="emited">
+    <a href="../../index.html"><h1 class="logo"><img src="../../src/img/logo.png">Cantilever</h1></a>
+
+
+    <menu class="mobile">
+        <div>Menu</div>
+        <ul>
+            <li><a href="./new.html">Nueva</a></li>
+            <li><a href="./emited.html">Emitidas</a></li>
+            <li><a href="./clients.html">Clientes</a></li>
+            <li><a href="./products.html">Productos</a></li>
+            <li><a href="./config.html">Configuracion</a></li>
+        </ul>
+
+    </menu>
+
+    <menu class="desktop row" id="menu-desktop">
+        <div><a href="./new.html">Facturar</a></div>
+        <div><a href="./emited.html">Emitidas</a></div>
+        <div><a href="./clients.html">Clientes</a></div>
+        <div><a href="./products.html">Productos</a></div>
+        <div><a href="./config.html">Configuracion</a></div>
+    </menu>
+
+    <section class="mobile box">
+        <h3>Clientes</h3>
+        <button>nuevo</button>
+        <button>buscar</button>
+        
+    </section>
+
+    <section class="mobile box table-allign">
+        <h3>Listado</h3>
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Codigo</th>
+                <th>Destinatario</th>
+                <th>*</th>
+            </tr>
+        </table>
+    </section>
+
+    <section class="menuVar box desktop t100">
+        <h3>Clientes</h3>
+
+        <label for="busque">Buscar por:</label>
+
+        <select name="busque" id="busqueda1">
+            <option value="1">Nombre</option>
+            <option value="2">CUIT Cliente</option>
+            <option value="3">Correo</option>
+            <option value="4">Telefono</option>
+        </select>
+
+
+        <p><input type="text" placeholder="Busqueda"><p><button>Buscar</button></p></p>
+        <p></p>
+        
+
+
+    </section>
+
+    <section class="desktop box t100" id="desktopCompView">
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Cuit</th>
+                <th>Correo</th>
+                <th>Telefono</th>
+                <th>Situacion Iva</th>
+                <th>🖉</th>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <div>correo: info@cantilever.com.ar</div>
+        <div>Cordoba, Argentina</div>
+        <div>Algun otro dato</div>
+    </footer>
+
+</body>
+</html>

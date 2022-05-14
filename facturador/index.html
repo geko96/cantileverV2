@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso - Cantilever</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../src/img/logo.png" type="image/x-icon">
+    <meta name="description" content="Facturador electronico para afip">
+    <meta name="keywords"  content="HTML, JS, AFIP, CUIT, FACTURA, COMERCIOS, VENTAS, KIOSCO, SUPERMERCADO">
+
+</head>
+<body class="loginin">
+    <form id="login" action="/facturador/pages/new.html">
+        <div>Usuario: <p><input type="text" placeholder="CUIT" id="cuit" autofocus></p></div>
+       
+        <div>Contraseña: <p><input type="password" id="pass" placeholder="Ingrese su contraseña"></p></div>
+        <p></p>
+        <input type="submit" id="entrar"> <button id="recovery-pass">Recuperar cuenta</button>
+    </form>
+
+    <section class="new-user-page">
+        <h2>Todavia no tienes cuenta?</h2>
+        <h2><button id="register">Registrate</button></h2>
+        <div class="new-user">
+            <input type="text" id="name" placeholder="Ingrese su denominacion fiscal">
+            <input type="number" id="cuit" placeholder="Ingrese su cuit">
+            <input type="email" id="mail" placeholder="Ingrese su correo">
+            <input type="password" id="pass1" placeholder="Ingrese su contraseña">
+            <input type="password" id="pass2" placeholder="Reingrese su contraseña">
+            <input type="number" id="phone" placeholder="Ingrese su telefono">
+        </div>
+    </section>
+
+
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
